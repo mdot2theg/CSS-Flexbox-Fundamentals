@@ -5,6 +5,7 @@ ul#flex-container {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 } 
 ul li {
     height: 145px;
@@ -14,6 +15,7 @@ ul li {
     font-weight: bold;  
     font-size: 2.2em;
     text-align: center;
+    flex-grow: 1;
 }
 ul li:first-child { background-color: #f0f;}
 ul li:nth-child(2) { background-color: #0000dd;}
